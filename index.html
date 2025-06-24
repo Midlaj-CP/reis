@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+/>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-…"
+      crossorigin="anonymous" />
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+   <div class="header-div">
+    <header>
+        <div class="header-up">
+            <div class="contact-left">
+
+                <p><span>Email us at</span> : example@mail.com</p>
+            </div>
+            <div class="contact-right">
+                <div class="socials">
+                  <i class="fa-brands fa-facebook-f"></i>
+                  <i class="fa-brands fa-dribbble"></i>
+                  <i class="fa-brands fa-linkedin-in"></i>
+                  <i class="fa-brands fa-instagram"></i>
+                  <i class="fa-brands fa-behance"></i>
+                </div>    
+                <div class="phone">
+                 <i class="fa-solid fa-phone"></i>
+                 <p>123-4567 890</p>
+                </div>
+            </div>
+        </div>
+        <div class="header-down">
+            <div class="header-down-left">
+                <img src="./images/HouseLine (1).png" alt="">
+                <div class="logo-text">
+                    <h1>REIS</h2>
+                    <p>Real State</p>
+                </div>
+            </div>
+            <div class="header-down-right show" id="navMenu">
+                <a href="#">HOME</a>
+                <a href="#">ABOUT US</a>
+                <a href="#">OUR AGENTS</a>
+                <a href="#">PROPERTIES</a>
+                <a href="#">GALLERY</a>
+                <a href="#">BLOG</a>
+                <a href="#">CONTACT US</a>
+                <a href="#">SEARCH</a>
+                <button>Add Listing</button>
+            </div>
+            <i id="hamburger" onclick="toggleMenu()" class="fa-solid fa-bars"></i>
+        </div>
+        
+    </header>
+    <section class="section-one">
+      <div class="home">
+            <h2>Find Your Dream Home</h2>
+            <p>Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuerecubilia curae; Proin sodales ultrices nulla blandit volutpat.
+            </p>
+        </div><div class="section-one-above">
+        <div class="section-one-above-right">
+         <button class="rent">Rent</button>
+         <img src="./images/Polygon 1.png" alt="">
+        </div>
+        <button class="sale">Sale</button>
+      </div>
+        <div class="flex">
+        <div class="select">
+          <h1>Location</h1>
+          <select name="" id="">
+            <option value="">Select your city</option>
+          </select>
+        </div>
+        <div class="select">
+          <h1>Property Type</h1>
+          <select name="" id="">
+            <option value="">
+              Select property type
+            </option>
+          </select>
+        </div>
+        <div class="select">
+          <h1>Rent range</h1>
+          <select name="" id="">
+            <option value="">Select rent range</option>
+          </select>
+        </div>
+        <div class="search">
+           <button>Search</button>
+        </div>
+      </div>
+    </section>
+    <section class="section-two">
+      <div class="description">
+        <h4>Properties by Area</h4>
+        <p>Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Proin sodales ultrices nulla blandit volutpat.</p>
+      </div>
+        <div class="section-two-images">
+          <div class="items washington">
+            <button class="learn"><a href="./images/index-2.html">Learn more</a></button>
+            <img src="./images/Rectangle 10.png" alt="">
+            <div>
+              <div class="item">
+                <h1>Washington</h1>
+                <p>25 listing</p>
+              </div>
+                <img class="map" src="./images/MapPin.png" alt="width: 24px;height: 24px;position: absolute;top: 200px;color: white;">
+            </div>
+          </div>
+          <div class="items franklin">
+            <button class="learn"><a href="./images/index-2.html">Learn more</a></button>
+            <img src="./images/Rectangle 11 (1).png" alt="">
+            <div>
+            <div class="item">
+              <h1>Franlin</h1>
+              <p>25 listing</p>
+            </div>
+            <img class="map" src="./images/MapPin.png" alt="width: 24px;height: 24px;position: absolute;top: 200px;color: white;">
+            </div>        
+          </div>
+          <div class="items clinton">
+            <button class="learn"><a href="./images/index-2.html">Learn more</a></button>
+            <img src="./images/Rectangle 12.png" alt="">
+            <div>
+            <div class="item">
+            <h1>Clinton</h1>
+            <p>25 listing</p>
+            </div>
+            <img class="map" src="./images/MapPin.png" alt="width: 24px;height: 24px;position: absolute;top: 200px;color: white;">
+            </div>
+          </div> 
+          <div class="items arlington">
+            <button class="learn"><a href="./images/index-2.html">Learn more</a></button>
+            <img class="arling" src="./images/Rectangle 14.png" alt="">
+            <div>
+            <div class="item">
+            <h1>Arlington</h1>
+            <p>25 listing</p>
+          </div>
+            <img class="map" src="./images/MapPin.png" alt="width: 24px;height: 24px;position: absolute;top: 200px;color: white;">
+          </div>
+          </div>
+          <div class="items centerville">
+            <button class="learn"><a href="./images/index-2.html">Learn more</a></button>
+            <img src="./images/Rectangle 13.png" alt="">
+            <div>
+            <div class="item">
+            <h1>Centerville</h1>
+            <p>25 listing</p>
+          </div>
+            <img class="map" src="./images/MapPin.png" alt="width: 24px;height: 24px;position: absolute;top: 200px;color: white;">
+          </div>
+          </div>
+        </div>     
+    </section> 
+    <section class="section-three">
+      <div class="description">
+        <h4>Properties by Area</h4>
+        <p>Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Proin sodales ultrices nulla blandit volutpat.</p>
+      </div>
+      <div class="section-three-content">
+        <div class="box-1">
+          <img src="./images/63-home 1.png" alt="">
+          <h1>Sell your home</h1>
+          <p>We do a free evaluation to be sure you want to start selling.</p>
+          <a href="">Read more</a>
+        </div>
+        <div class="box-1">
+          <img src="./images/63-home 3.png" alt="">
+          <h1>Rent your home</h1>
+          <p>We do a free evaluation to be sure you want to start selling.</p>
+          <a href="">Read more</a>
+        </div>
+        <div class="box-1">
+          <img src="./images/63-home 2.png" alt="">
+          <h1>Buy home</h1>
+          <p>We do a free evaluation to be sure you want to start selling.</p>
+          <a href="">Read more</a>
+        </div>
+        <div class="box-1">
+          <img src="./images/63-home 4.png" alt="">
+          <h1>Free marketing</h1>
+          <p>We do a free evaluation to be sure you want to start selling.</p>
+          <a href="">Read more</a>
+        </div>
+      </div>
+    </section> 
+    <section class="section-four">
+      <div class="container">
+      <div class="description">
+        <h5>Letest Properties of Rent</h5>
+        <p>Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Proin sodales ultrices nulla blandit volutpat.</p>
+      </div>
+      <div class="properties">
+        <div class="profile-1" >
+          <div class="images">
+          <img src="./images/Rectangle 18.png" alt="">
+          </div>
+          <div class="portion-2">
+            <div class="text">
+          <p>92 ALLIUM PLACE, ORLANDO FL 32827</p>
+          <h6>$ 590,693</h6>
+          </div>
+          <div class="frames">
+             <img class="frame1" src="./images/Frame 90.png" alt="">
+             <img class="frame2" src="./images/Frame 98.png" alt="">
+          </div>
+        </div>
+        </div>
+        <div class="profile-1" >
+          <div class="images">
+          <img src="./images/Rectangle 18 (1).png" alt="">
+          </div>
+          <div class="portion-2">
+            <div class="text">
+          <p>92 ALLIUM PLACE, ORLANDO FL 32827</p>
+          <h6>$ 590,693</h6>
+          </div>
+          <div class="frames">
+             <img class="frame1" src="./images/Frame 90.png" alt="">
+             <img class="frame2" src="./images/Frame 98 (1).png" alt="">
+          </div>
+        </div>
+        </div>
+        <div class="profile-1" >
+          <div class="images">
+          <img src="./images/Rectangle 18 (4).png" alt="">
+          </div>
+          <div class="portion-2">
+            <div class="text">
+          <p>92 ALLIUM PLACE, ORLANDO FL 32827</p>
+          <h6>$ 590,693</h6>
+          </div>
+          <div class="frames">
+             <img class="frame1" src="./images/Frame 90.png" alt="">
+             <img class="frame2" src="./images/Frame 98 (2).png" alt="">
+          </div>
+        </div>
+        </div>
+        <div class="profile-1" >
+          <div class="images">
+          <img src="./images/Rectangle 18 (5).png" alt="">
+          </div>
+          <div class="portion-2">
+            <div class="text">
+          <p>92 ALLIUM PLACE, ORLANDO FL 32827</p>
+          <h6>$ 590,693</h6>
+          </div>
+          <div class="frames">
+             <img class="frame1" src="./images/Frame 90.png" alt="">
+             <img class="frame2" src="./images/Frame 98.png" alt="">
+          </div>
+        </div>
+        </div>
+        <div class="profile-1" >
+          <div class="images">
+          <img src="./images/Rectangle 18 (6).png" alt="">
+          </div>
+          <div class="portion-2">
+            <div class="text">
+          <p>92 ALLIUM PLACE, ORLANDO FL 32827</p>
+          <h6>$ 590,693</h6>
+          </div>
+          <div class="frames">
+             <img class="frame1" src="./images/Frame 90.png" alt="">
+             <img class="frame2" src="./images/Frame 98 (1).png" alt="">
+          </div>
+        </div>
+        </div>
+        <div class="profile-1" >
+          <div class="images">
+          <img src="./images/Rectangle 18 (7).png" alt="">
+          </div>
+          <div class="portion-2">
+            <div class="text">
+          <p>92 ALLIUM PLACE, ORLANDO FL 32827</p>
+          <h6>$ 590,693</h6>
+          </div>
+          <div class="frames">
+             <img class="frame1" src="./images/Frame 90.png" alt="">
+             <img class="frame2" src="./images/Frame 98 (2).png" alt="">
+          </div>
+        </div>
+        </div>
+      </div>
+      <div class="section-four-button">
+        <button>Load more listing</button>
+      </div>
+      </div>
+    </section>
+    <section class="section-five">
+      <div class="description">
+        <h5>Letest Properties of Rent</h5>
+        <p>Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Proin sodales ultrices nulla blandit volutpat.</p>
+      </div>
+      <!-- <div class="slides">
+        <div class="slide-image" >
+          <img src="./Group 8.png" alt="">
+          <button class="view">View Detail</button>
+        </div>
+        <div class="slide-image" >
+          <img src="./Group 9.png" alt="">
+          <button class="view">View Detail</button>
+        </div>
+        <div class="slide-image" >
+          <img src="./Group 10.png" alt="">
+          <button class="view">View Detail</button>
+        </div>
+        <div class="slide-image" >
+          <img src="./Group 7.png" alt="">
+          <button class="view">View Detail</button>
+        </div>
+        <div class="slide-image" >
+          <img src="./Group 8.png" alt="">
+          <button class="view">View Detail</button>
+        </div>
+        <div class="slide-image" >
+          <img src="./Group 9.png" alt="">
+          <button class="view">View Detail</button>
+        </div>
+        <div class="slide-image" >
+          <img src="./Group 10.png" alt="">
+          <button class="view">View Detail</button>
+        </div>
+        <div class="slide-image" >
+          <img src="./Group 7.png" alt="">
+          <button class="view">View Detail</button>
+        </div>
+      </div> -->
+      <div class="slides" style="margin-top:50px;">
+
+        <swiper-container class="mySwiper" slides-per-view="4" space-between="20" centered-slides="false"  >
+            <swiper-slide><img src="./images/Group 9.png"><button class="view"><a href="./index-2.html">View Detail</a></button></swiper-slide>
+            <swiper-slide><img src="./images/Group 8.png"><button class="view"><a href="./index-2.html">View Detail</a></button></swiper-slide>
+            <swiper-slide><img src="./images/Group 7.png"><button class="view"><a href="./index-2.html">View Detail</a></button></swiper-slide>    
+            <swiper-slide><img src="./images/Group 10.png"><button class="view"><a href="./index-2.html">View Detail</a></button></swiper-slide>
+             <swiper-slide><img src="./images/Group 9.png"><button class="view"><a href="./index-2.html">View Detail</a></button></swiper-slide>
+              <swiper-slide><img src="./images/Group 8.png"><button class="view"><a href="./index-2.html">View Detail</a></button></swiper-slide>
+               <swiper-slide><img src="./images/Group 7.png"><button class="view"><a href="./index-2.html">View Detail</a></button></swiper-slide>
+                <swiper-slide><img src="./images/Group 10.png"><button class="view"><a href="./index-2.html">View Detail</a></button></swiper-slide>
+                 <swiper-slide><img src="./images/Group 9.png"><button class="view"><a href="./index-2.html">View Detail</a></button></swiper-slide>
+       
+        </swiper-container>
+        <div class="custom-buttons">
+<button id="prevBtn"><i class="fa-solid fa-arrow-left"></i></button>
+<button id="nextBtn"><i class="fa-solid fa-arrow-right"></i></button>
+</div>
+</div>
+</section>
+<section class="section-six">
+  <div class="contacts">
+    <h5>Find Best Place For Living</h5>
+    <p>Spend vacations in best hotels and resorts find the great place of your
+choice using different searching options.</p>
+  </div>
+   <button class="contact">Contact us</button>
+  
+</section>
+<footer>
+  <div class="column-1">
+    <div class="logo">
+      <img src="./images/logo (1).png" alt="">
+    </div>
+    <div class="below"> <div class="contactus">
+      <h1>Contact Us</h1>
+      <p>Call : +123 400 123</p>
+      <p>Praesent nulla massa, hendrerit vestibulum gravida in, feugiat auctor felis.</p>
+      <h2>Email: example@mail.com</h2>
+    </div>
+    <div class="cards">
+      <div>
+        <i class="fa-brands fa-facebook-f"></i>
+      </div>
+      <div>
+        <i class="fa-solid fa-earth-americas"></i>
+      </div>
+      <div>
+        <i class="fa-brands fa-linkedin-in"></i>
+      </div>
+      <div>
+        <i class="fa-brands fa-instagram"></i>
+      </div>
+      <div>
+        <i class="fa-brands fa-behance"></i>
+      </div>
+    </div>
+  </div>
+  </div>
+  <div class="footer-2">
+  <div class="column-2">
+    <h1>Features</h1>
+    <a href="#">Home</a>
+    <a href="#">Become a Host</a>
+    <a href="#">Pricing</a>
+    <a href="#">Blog</a>
+    <a href="#">Contact</a>
+  </div>
+  <div class="column-2">
+    <h1>Company</h1>
+   <a href="#">About Us</a>
+   <a href="#">Press</a>
+   <a href="#">Contact</a>
+   <a href="#">Careers</a>
+   <a href="#">Blog</a>
+  </div>
+  <div class="column-2">
+    <h1>Teams and policies</h1>
+    <a href="#">Terms of service</a>
+    <a href="#">Privacy Policy</a>
+    <a href="#">Security</a>
+  </div>
+  </div>
+</footer>
+
+</div> 
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
+<script>
+  const swiperEl = document.querySelector('.mySwiper');
+  
+
+  Object.assign(swiperEl, {
+   
+    breakpoints: {
+      320: {
+        slidesPerView: 1.2,
+        spaceBetween: 10,
+      },
+      640: {
+        slidesPerView: 2.2,
+        spaceBetween: 20,
+      },
+      768: {
+        slidesPerView: 3.2,
+        spaceBetween: 30,
+      },
+      1024: {
+        slidesPerView: 4.2,
+        spaceBetween: 40,
+      },
+    },
+  });
+
+  // After assigning options, you must initialize it
+  swiperEl.initialize();
+  setTimeout(() => {
+      const swiper = swiperEl.swiper;
+
+      document.getElementById('prevBtn').addEventListener('click', () => {
+        swiper.slidePrev();
+      });
+
+      document.getElementById('nextBtn').addEventListener('click', () => {
+        swiper.slideNext();
+      });
+    }, 100); 
+</script>
+<script>
+  function toggleMenu() {
+    document.getElementById("navMenu").classList.toggle("show");
+  }
+</script>
+</body>
+</html>
