@@ -515,7 +515,7 @@ body button:hover{
 .properties{
     display: grid;
     grid-template-columns:1fr 1fr 1fr;
-    color: #1E2640;
+    
     grid-gap: 20px;
     padding: 39px 100px;
     
