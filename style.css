@@ -306,7 +306,7 @@ body button:hover{
     display: flex;
     flex-direction: column;
     text-align: center;
-    gap: 24px;
+  
 }
 .section-two .description h4{
     margin: 0;
@@ -319,7 +319,8 @@ body button:hover{
     font-weight: 400;
     font-size: 20px;
     color: #889099;
-    max-width: 850px;  
+    max-width: 850px; 
+    padding: 1rem; 
 }
 .section-two-images {
     display: grid;
@@ -350,7 +351,7 @@ body button:hover{
 .item{
     position: absolute;
     top: 10px;
-    left: 15px;
+    left: 25px;
     color: #ffffff;
 }
 .item h1{
@@ -401,7 +402,7 @@ body button:hover{
     flex-direction: column;
     text-align: center;
     max-width: 750px;
-    gap: 24px;
+   
     
 }
 .section-three-content{
@@ -435,6 +436,8 @@ body button:hover{
 .description p{
     font-size: 20px;
     font-weight: 400;
+    margin: 0;
+     padding: 1rem;
 }
 .section-four{
     /* display: flex;
@@ -449,7 +452,7 @@ body button:hover{
     display: flex;
     flex-direction: column;
     text-align: center;
-    gap: 24px;
+    
     align-items: center;
     
 }
@@ -463,7 +466,7 @@ body button:hover{
     font-size:20px ;
     font-weight: 400; 
    max-width: 850px;
-   
+    padding: 1rem;
     
 }
 .frames {
@@ -639,7 +642,7 @@ swiper-slide:hover .view{
    justify-content: center;
    align-items: center;
    text-align: center;
-   gap: 25px;
+   
   
 }
 .contacts h5{
@@ -654,6 +657,7 @@ swiper-slide:hover .view{
     color: #ffffff;
     max-width: 750px;
     margin: 0;
+    padding: 2rem;
 }
 .contact {
     color: #ffffff;
@@ -696,6 +700,7 @@ footer{
     font-weight: 400;
     color: #6D737A;
     max-width: 340px;
+    text-decoration: none;
 }
 .contactus h2{
     font-weight: 400;
@@ -976,7 +981,7 @@ footer{
         text-align: center;
     }
     .flex{
-        height: 260px;
+        height: 180px;
         top:275px
     }
     .select{
